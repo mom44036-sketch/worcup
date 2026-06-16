@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%; 
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255,255,255,0) 30%,
+    rgba(255,255,255,0.45) 50%, 
+    rgba(255,255,255,0) 70%,
+    transparent 100%
+  );
+  transform: skewX(-20deg);
+  pointer-events: none;
+ 
+  animation: shine 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+
+@keyframes shine {
+  0%   { left: -150%; }
+  70%  { left: 150%; }
+  100% { left: 150%; } 
+}
+</style>
+    
+
+    <div class="banner">
+        <img src="banner.png" alt="" srcset="" style="width: 100%; height: 300px;">
+    </div> -->
+    
+
+    <div style="position:relative; overflow:hidden; width:100%;">
+        <a href="" style="text-decoration: none;">
+    <img src="banner.png" alt="" style="display:block; width:100%; height:100% ">
+    
+    <!-- ده بديل الـ banner::after -->
+    <div style="position:absolute; top:0; left:-150%; width:50%; height:100%; background:linear-gradient(120deg, transparent 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,0.45) 50%, rgba(255,255,255,0) 70%, transparent 100%); transform:skewX(-20deg); pointer-events:none; animation:shine 5s cubic-bezier(0.25,0.46,0.45,0.94) infinite;"></div>
+     </a> 
+</div>
+
+  <style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+@keyframes shine {
+  0% { left: -150%; }
+  70% { left: 150%; }
+  100% { left: 150%; }
+}
+</style>
+</body>
+</html>
